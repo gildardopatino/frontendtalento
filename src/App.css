@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: calc(100% - 250px);
+}
+
+.content {
+  overflow-y: auto;
+  flex: 1;
+}
